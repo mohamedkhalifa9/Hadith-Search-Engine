@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <link href="/styles.css" rel="stylesheet">
+  <style>
+    .placeholder-left::placeholder {
+  text-align: left;
+}
+  </style>
+</head>
+<header class="bg-white text-gray-500 p-6 text-center">
+  
+    <h1 class="text-4xl font-bold">The Sahih Muslim Hadith Website</h1>
+    <h4>Enter your search in arabic and recieve your Hadiths in English</h4>
+  </header>
+  <div class="text-center">
+    <search >
+      <form action="/search" >
+        <label for="query"></label>
+        <input class="border border-gray-300 rounded-lg p-2 w-100 text-right placeholder-left" type="search" id="query" name="q" placeholder="Your Search" />
+        <button class="bg-blue-700 text-white rounded-lg px-4 py-2 hover:bg-blue-800" type="submit">Search</button>
+      </form>
+    </search>
+  </div>
+  
+  
